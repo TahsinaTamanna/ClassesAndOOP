@@ -31,8 +31,6 @@ def print_report(customer):
    for trans in [trans1, trans2, trans3, trans4]:
        if trans.get_customerid() == customer.get_customerid():
            order_total += trans.get_cost()
-       elif trans.get_customerid() == customer.get_customerid():
-           order_total += trans.get_cost()
                   
    print(f"Customer Name: {customer.get_name()}")
    print(f"Phone: {customer.get_phone()}")
